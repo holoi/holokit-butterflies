@@ -1157,6 +1157,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Butterfly (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 9116639854461088822, guid: c189038b80af549c4b1b380fe53b8eb8,
+        type: 3}
+      propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[2].m_Value
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2325,6 +2330,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Butterfly (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 9116639854461088822, guid: c189038b80af549c4b1b380fe53b8eb8,
+        type: 3}
+      propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[2].m_Value
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3347,6 +3357,41 @@ PrefabInstance:
       propertyPath: m_Name
       value: Butterfly (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 9116639854461088822, guid: c189038b80af549c4b1b380fe53b8eb8,
+        type: 3}
+      propertyPath: m_PropertySheet.m_Float.m_Array.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9116639854461088822, guid: c189038b80af549c4b1b380fe53b8eb8,
+        type: 3}
+      propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[2].m_Name
+      value: Process
+      objectReference: {fileID: 0}
+    - target: {fileID: 9116639854461088822, guid: c189038b80af549c4b1b380fe53b8eb8,
+        type: 3}
+      propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[3].m_Name
+      value: Vortex Force Amp
+      objectReference: {fileID: 0}
+    - target: {fileID: 9116639854461088822, guid: c189038b80af549c4b1b380fe53b8eb8,
+        type: 3}
+      propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[2].m_Value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9116639854461088822, guid: c189038b80af549c4b1b380fe53b8eb8,
+        type: 3}
+      propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[3].m_Value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9116639854461088822, guid: c189038b80af549c4b1b380fe53b8eb8,
+        type: 3}
+      propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[2].m_Overridden
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9116639854461088822, guid: c189038b80af549c4b1b380fe53b8eb8,
+        type: 3}
+      propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[3].m_Overridden
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3432,6 +3477,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Butterfly
+      objectReference: {fileID: 0}
+    - target: {fileID: 9116639854461088822, guid: c189038b80af549c4b1b380fe53b8eb8,
+        type: 3}
+      propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[2].m_Value
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
