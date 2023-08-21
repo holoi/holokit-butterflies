@@ -18,7 +18,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &971771816907075899
 Transform:
   m_ObjectHideFlags: 0
@@ -155,6 +155,7 @@ MonoBehaviour:
   State: 0
   TargetPosition: {x: 0, y: 0, z: 0}
   m_Speed: 0.6
+  m_Vfx: {fileID: 9116639854461088822}
 --- !u!2083052967 &9116639854461088822
 VisualEffect:
   m_ObjectHideFlags: 0
@@ -195,7 +196,33 @@ VisualEffect:
     m_Matrix4x4f:
       m_Array: []
     m_AnimationCurve:
-      m_Array: []
+      m_Array:
+      - m_Value:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0.7921311
+            value: 0.99263805
+            inSlope: -0.018616378
+            outSlope: -0.018616378
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0.29790512
+          - serializedVersion: 3
+            time: 1
+            value: 0.014581084
+            inSlope: -13.736213
+            outSlope: -13.736213
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.06713366
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_Name: Slow Motion Curve
+        m_Overridden: 1
     m_Gradient:
       m_Array: []
     m_NamedObject:

@@ -11,7 +11,7 @@ public class ButterflyManager : MonoBehaviour
 
     [SerializeField] float m_AttractionThreshold = 0.5f;
 
-    [SerializeField] float m_StayThreshold = 0.1f;
+    [SerializeField] float m_StayThreshold = 0.01f;
 
     [SerializeField] Transform m_HandSample;
 
@@ -56,6 +56,7 @@ public class ButterflyManager : MonoBehaviour
             {
                 closestButterfly.TargetPosition = handPosition;
                 closestButterfly.State = ButterflyState.Attracted;
+                closestButterfly.TargetPosition = m_HandSample.position;
             }
 
             foreach (var butterfly in m_Butterflies)
