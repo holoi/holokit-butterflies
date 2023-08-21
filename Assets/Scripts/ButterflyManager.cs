@@ -56,7 +56,7 @@ public class ButterflyManager : MonoBehaviour
             {
                 closestButterfly.TargetPosition = handPosition;
                 closestButterfly.State = ButterflyState.Attracted;
-                closestButterfly.TargetPosition = m_HandSample.position;
+                closestButterfly.TargetPosition = handPosition;
             }
 
             foreach (var butterfly in m_Butterflies)
